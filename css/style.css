@@ -1,0 +1,537 @@
+ body{
+  font-family: '微軟正黑體';
+
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100;176;471;700;900&family=Yellowtail&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&family=Texturina:wght@100;176;471;700;900&family=Yellowtail&display=swap');
+
+/* body {
+	
+	background: url(https://assets.codepen.io/756881/bg-fuzz);
+	background-size: cover;
+	background-position: center;
+  background-attachment: fixed;
+  font-family: 'Barlow', sans-serif; */
+  /* font-family: "Kanit", sans-serif; */
+  /* font-family: 'Texturina', serif; */
+  /* font- family: 'Yellowtail', cursive; */
+  /* height: 50vh; */
+  
+/* 
+	display: flex;
+	align-items: center;
+  flex-direction: column;
+  font-family: '微軟正黑體';
+} */
+
+ 
+
+
+ /* h1 {  */
+	/* position: fixed; */
+	/* z-index: 1; */
+	/* top: 60vh; */
+	/* margin: 0;
+	transform: translateY(-50%); */
+	 /* text-align: center;
+	color: white;
+	letter-spacing: 2px;
+	font-size: clamp(10px, 13vw, 60px);
+	color: #fffff8;
+	font-size: clamp(10px, 14vw, 60px); */
+  /* text-align: center; */
+  /* font-family: 'Texturina', serif;
+  font-family: 'Yellowtail', cursive; */
+   /* font-family: 'Squada One', cursive;
+  
+
+}    */
+/* 
+svg {
+	margin-top: -80vh;
+	max-height: 60vh;
+	width: 100px;
+} */
+
+
+
+/* 
+
+body {
+	height: 200vh;
+	background: url(https://assets.codepen.io/756881/bg-fuzz);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: "Kanit", sans-serif;
+	display: flex;
+	align-items: center;
+  flex-direction: column;
+  font-family: '微軟正黑體';
+} */
+
+
+   * { margin: 0px;
+  padding: 3px;
+  
+  }   
+  
+  /* .container {
+    width: 375px;
+    margin: 0 auto;
+  } */
+  
+/* 
+  head {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, #3d5894,#08c7a5);
+    height: 50px;
+    
+} */
+  
+  
+  div.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 15px auto;
+    width: 300px;
+    height: 150px;
+    background: white;
+    border-radius: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+  }
+
+div.test:hover {
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+}
+
+div.test:hover::before, div.test:hover::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  background: #FDA8CF;
+  border-radius: 35px;
+  z-index: -1;
+  animation: 1s clockwise infinite;
+}
+
+div.test:hover:after {
+background: #F3CE5E;
+animation: 2s counterclockwise infinite;
+}
+
+@keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+}
+
+@keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+} 
+
+h3 {  color: white;
+	/* background-color: rgba(135, 207, 235, 0.438); */ 
+	
+	 text-align: center;
+	 /* margin: 0 auto; */
+	 /* display: flex; */
+	 align-items: center;
+	 background: linear-gradient(45deg, #3d5894,#08c7a5);
+	 height: 35px;
+	 border-radius: 15px;
+ 
+
+}
+h6 {
+  border-radius: 15px;
+  background-color: #74e7ad;
+  padding-top: 3px ;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+.nav-tabs{
+  padding: 20px;
+  }
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+  /* .container {
+	  width: 100%;
+	  position: relative;
+	  overflow: hidden;
+  } */
+  
+  
+  .sp-container {
+	  /* position: fixed; */
+	  top: 100px;
+	  left: 0px;
+	  width: 100%;
+	  height: 100px;
+	  z-index: 0;
+	  
+  }
+  /* .sp-content {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  left: 0px;
+	  top: 0px;
+	  z-index: 1000;
+  } */
+  .sp-container h2 {
+	  position: absolute;
+	  top: 25%;
+	  line-height: 100px;
+	  height: 90px;
+	  margin-top: 50px;
+	  font-size: 50px;
+	  width: 100%;
+	  text-align: center;
+	  color: transparent;
+	  -webkit-animation: blurFadeInOut 3s ease-in backwards;
+	  -moz-animation: blurFadeInOut 3s ease-in backwards;
+	  -ms-animation: blurFadeInOut 3s ease-in backwards;
+	  animation: blurFadeInOut 3s ease-in backwards;
+  }
+  .sp-container h2.frame-1 {
+	  -webkit-animation-delay: 0s;
+	  -moz-animation-delay: 0s;
+	  -ms-animation-delay: 0s;
+	  animation-delay: 0s;
+  }
+  .sp-container h2.frame-2 {
+	  -webkit-animation-delay: 3s;
+	  -moz-animation-delay: 3s;
+	  -ms-animation-delay: 3s;
+	  animation-delay: 3s;
+  }
+  .sp-container h2.frame-3 {
+	  -webkit-animation-delay: 6s;
+	  -moz-animation-delay: 6s;
+	  -ms-animation-delay: 6s;
+	  animation-delay: 6s;
+  }
+  /* .sp-container h2.frame-4 {
+	  font-size: 200px;
+	  -webkit-animation-delay: 9s;
+	  -moz-animation-delay: 9s;
+	  -ms-animation-delay: 9s;
+	  animation-delay: 9s;
+  } */
+  .sp-container h2.frame-5 {
+	  -webkit-animation: none;
+	  -moz-animation: none;
+	  -ms-animation: none;
+	  animation: none;
+	  color: transparent;
+	  /* text-shadow: 0px 0px 1px rgb(47, 9, 216); */
+  }
+  .sp-container h2.frame-5 span {
+	  -webkit-animation: blurFadeIn 3s ease-in 12s backwards;
+	  -moz-animation: blurFadeIn 3s ease-in 12s backwards;
+	  -ms-animation: blurFadeIn 3s ease-in 12s backwards;
+	  animation: blurFadeIn 3s ease-in 12s backwards;
+	  color: transparent;
+	  text-shadow: 0px 0px 1px rgba(6, 34, 190, 0.548);
+  }
+  .sp-container h2.frame-5 span:nth-child(2) {
+	  -webkit-animation-delay: 13s;
+	  -moz-animation-delay: 13s;
+	  -ms-animation-delay: 13s;
+	  animation-delay: 13s;
+  }
+  .sp-container h2.frame-5 span:nth-child(3) {
+	  -webkit-animation-delay: 14s;
+	  -moz-animation-delay: 14s;
+	  -ms-animation-delay: 14s;
+	  animation-delay: 14s;
+  }
+  .sp-globe {
+	  /* position: absolute; */
+	  /* width: 182px; */
+	  /* height: 173px; */
+	  left: 50%;
+	  top: 50%;
+	margin: -137px 0 0 -141px;
+	font-family: 'Barlow', sans-serif;
+	  /* background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left; */
+	   -webkit-animation: fadeInBack 3.6s linear 14s backwards;
+	  -moz-animation: fadeInBack 3.6s linear 14s backwards;
+	  -ms-animation: fadeInBack 3.6s linear 14s backwards;
+	  animation: fadeInBack 3.6s linear 14s backwards;
+	 /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	  filter: alpha(opacity=30); */
+	  opacity: 0.3;
+	   -webkit-transform: scale(1);
+	  -moz-transform: scale(1);
+	  -o-transform: scale(1);
+	  -ms-transform: scale(1);
+	  transform: scale(1); 
+  }
+  
+  /**/
+  
+  @-webkit-keyframes blurFadeInOut {
+	  0% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 40px rgb(4, 138, 248);
+		  -webkit-transform: scale(1.3);
+	  }
+	  20%, 75% {
+		  opacity: 1;
+		  text-shadow: 0px 0px 1px rgb(4, 138, 248);
+		  -webkit-transform: scale(1);
+	  }
+	  100% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 50px rgb(4, 138, 248);
+		  -webkit-transform: scale(0);
+	  }
+  }
+  @-webkit-keyframes blurFadeIn {
+	  0% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 40px rgb(4, 138, 248);
+		  -webkit-transform: scale(1.3);
+	  }
+	  50% {
+		  opacity: 0.5;
+		  text-shadow: 0px 0px 10px rgb(4, 138, 248);;
+		  -webkit-transform: scale(1.1);
+	  }
+	  100% {
+		  opacity: 1;
+		  text-shadow: 0px 0px 1px rgb(4, 138, 248);
+		  -webkit-transform: scale(1);
+	  }
+  }
+  @-webkit-keyframes fadeInBack {
+	  0% {
+		  opacity: 0;
+		  -webkit-transform: scale(0);
+	  }
+	  50% {
+		  opacity: 0.4;
+		  -webkit-transform: scale(2);
+	  }
+	  100% {
+		  opacity: 0.2;
+		  -webkit-transform: scale(0);
+	  }
+  }
+  @-webkit-keyframes fadeInRotate {
+	  0% {
+		  opacity: 0;
+		  -webkit-transform: scale(0) rotate(360deg);
+	  }
+	  100% {
+		  opacity: 1;
+		  -webkit-transform: scale(1) rotate(0deg);
+	  }
+  }
+  /**/
+  
+  @-moz-keyframes blurFadeInOut {
+	  0% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 40px rgb(4, 138, 248);
+		  -moz-transform: scale(1.3);
+	  }
+	  20%, 75% {
+		  opacity: 1;
+		  text-shadow: 0px 0px 1px rgb(4, 138, 248);
+		  -moz-transform: scale(1);
+	  }
+	  100% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 50px rgb(4, 138, 248);
+		  -moz-transform: scale(0);
+	  }
+  }
+  @-moz-keyframes blurFadeIn {
+	  0% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 40px rgb(4, 138, 248);
+		  -moz-transform: scale(1.3);
+	  }
+	  100% {
+		  opacity: 1;
+		  text-shadow: 0px 0px 1px rgb(4, 138, 248);
+		  -moz-transform: scale(1);
+	  }
+  }
+  @-moz-keyframes fadeInBack {
+	  0% {
+		  opacity: 0;
+		  -moz-transform: scale(0);
+	  }
+	  50% {
+		  opacity: 0.4;
+		  -moz-transform: scale(2);
+	  }
+	  100% {
+		  opacity: 0.2;
+		  -moz-transform: scale(0);
+	  }
+  }
+  @-moz-keyframes fadeInRotate {
+	  0% {
+		  opacity: 0;
+		  -moz-transform: scale(0) rotate(360deg);
+	  }
+	  100% {
+		  opacity: 1;
+		  -moz-transform: scale(1) rotate(0deg);
+	  }
+  }
+  /**/
+  
+  @keyframes blurFadeInOut {
+	  0% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 40px rgb(4, 138, 248);
+		  transform: scale(1.3);
+	  }
+	  20%, 75% {
+		  opacity: 1;
+		  text-shadow: 0px 0px 1px rgb(4, 138, 248);
+		  transform: scale(1);
+	  }
+	  100% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 50px rgb(4, 138, 248);
+		  transform: scale(0);
+	  }
+  }
+  @keyframes blurFadeIn {
+	  0% {
+		  opacity: 0;
+		  text-shadow: 0px 0px 40px rgb(4, 138, 248);;
+		  transform: scale(1.3);
+	  }
+	  50% {
+		  opacity: 0.5;
+		  text-shadow: 0px 0px 10px rgb(4, 138, 248);
+		  transform: scale(1.1);
+	  }
+	  100% {
+		  opacity: 1;
+		  text-shadow: 0px 0px 1px rgb(4, 138, 248);
+		  transform: scale(1);
+	  }
+  }
+  @keyframes fadeInBack {
+	  0% {
+		  opacity: 0;
+		  transform: scale(0);
+	  }
+	  50% {
+		  opacity: 0.4;
+		  transform: scale(2);
+	  }
+	  100% {
+		  opacity: 0.2;
+		  transform: scale(1);
+	  }
+  }
+  @keyframes fadeInRotate {
+	  0% {
+		  opacity: 0;
+		  transform: scale(0) rotate(360deg);
+	  }
+	  100% {
+		  opacity: 1;
+		  transform: scale(1) rotate(0deg);
+	  }
+  }
+
+
